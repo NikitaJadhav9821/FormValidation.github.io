@@ -1,0 +1,86 @@
+*{
+    font-family:cursive;
+    box-sizing: border-box;
+}
+
+.container .formbox{
+     display: block;
+     width: 100%;
+}
+
+body{
+    background-color:#1a9ae2;
+}
+
+.formbox{
+    max-width: 350px;
+    margin: 100px auto;
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 30px;
+    background: #fff;
+}
+
+.formbox .input-field{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.formbox input{
+    display: block;
+    min-height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.formbox input[type='text']{
+       padding-right:25px;
+}
+
+.formbox h2{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.formbox label{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.formbox input[type='submit']{
+    background-color: #1a9ae2;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* .formbox .fa{
+    position: absolute;
+    right: 10px;
+    margin-top: -25px;
+} */
+
+.formbox .input-field.error input{
+    border-color: #f00;
+}
+
+.formbox .input-field.success input{
+    border-color: #0b0;
+}
+
+.formbox .input-field span{
+    color: #f00;
+    visibility: hidden;
+}
+
+.formbox .input-field.error span{
+    visibility: visible;
+}
+
